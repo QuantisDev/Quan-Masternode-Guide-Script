@@ -12,16 +12,16 @@ rm /usr/local/share/man/man1/dash*
 rm /usr/local/lib/libquantis*
 rm /usr/local/include/quantisnet*
 
-wget https://github.com/QuantisDev/QuantisNet-Core/releases/download/v2.1.3.2/quantisnetcore-2.1.3.2-x86_64-linux-gnu.tar.gz
-tar -xvzf quantisnetcore-2.1.3.2-x86_64-linux-gnu.tar.gz
+wget https://github.com/QuantisDev/QuantisNet-Core/releases/download/v2.2.0/quantisnetcore-2.2.0-x86_64-linux-gnu.tar.gz
+tar -xvzf quantisnetcore-2.2.0-x86_64-linux-gnu.tar.gz
 
-mv quantisnetcore-2.1.3/bin/quantisnet* /usr/local/bin
-mv quantisnetcore-2.1.3/bin/test_quantisnet /usr/local/bin
-mv quantisnetcore-2.1.3/include/quantis* /usr/local/include
-mv quantisnetcore-2.1.3/lib/libquantis* /usr/local/lib
-mv quantisnetcore-2.1.3/share/man/man1 /usr/local/share/man
-rm -r quantisnetcore-2.1.3
-rm quantisnetcore-2.1.3.2-x86_64-linux-gnu.tar.gz
+mv quantisnetcore-2.2.0/bin/quantisnet* /usr/local/bin
+mv quantisnetcore-2.2.0/bin/test_quantisnet /usr/local/bin
+mv quantisnetcore-2.2.0/include/quantis* /usr/local/include
+mv quantisnetcore-2.2.0/lib/libquantis* /usr/local/lib
+mv quantisnetcore-2.2.0/share/man/man1 /usr/local/share/man
+rm -r quantisnetcore-2.2.0
+rm quantisnetcore-2.2.0-x86_64-linux-gnu.tar.gz
 chmod +x /usr/local/bin/quantisnet*
 
 echo "Do you need to resync the chain? [y/n]"
